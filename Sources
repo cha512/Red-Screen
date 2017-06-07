@@ -1,0 +1,9 @@
+TARGETNAME=Driver # 컴파일 된 파일의 이름
+TARGETPATH=obj # 현재 디렉토리 하위에 obj 디렉토리를 생성 후 파일 생성
+TARGETTYPE=DRIVER # 디바이스 드라이버 타입 중 Driver로 설정
+# 필요한 라이브러리 파일 include 시킴
+#TARGETLIBS= \
+# $(DDK_LIB_PATH)\wdmsec.lib\
+# $(DDK_LIB_PATH)\csq.lib
+# 빌드 할 소스 파일의 이름   
+SOURCES=Driver.cpp
